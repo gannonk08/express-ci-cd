@@ -2,6 +2,14 @@ language:
 - node_js
 node_js:
 - '6'
+- '5'
 env:
   global:
   - NODE_ENV=test
+deploy:
+  provider: heroku
+  api_key:
+    secure: pvQbEHaLHvD7W9rqZf2wj33ORqnHy7sIZfCj1Z2GgUQCgYVJ67xXS6nVJ5mG+xVdIcdnt5VEzTQQhqBMA13f7o7EYp5CvfgV1hRWQIKoaQf2f/aJZNsMAKPfnRUhB4oEK56CizF0AJHl/k/jEz1ZUQLx8F/QoSjsSfmlF+CYkR/W8tLE0PeuJCrU4dKuNAypPOMi3HHPOg6BIGQ2Ksm/GmOrTdpms9Ru2ukhZ0ZHPVZROELTI1+mNmwcTaBb9O0MVwoBRmlZwyOzhqHO2GqXGMySd3p8ro811kcVTHKoccb0NK2sDRyo8cndi7kcN7PQ0AR4yRZksoNXfe6QxxtsLMWoe8tZIyitdXHN47s9mzT+2DITUIWwjpdfF+kAllgLFsX7owMO8ZKCW60o7R4PdczA6BZHX86w8xcIxOInlMBgqwpGWz5NgbRloDV5b8YiaN5iMLWP9wmkeT0sdixfTGESDN1Oh+AzumudiK35EE490eUP2t8Q/RmIqjCxtBFZHWnreEgX9BBsATw21QEiZvFlmrz7SA9nsgur6sNCmK8icoRIQU1A0/P0UOEKI2BoeLzTogaXnohta2gntONAFIWA821wgJoHGkhTdyWCRA6bh53KrfhDTIMyHfC6JbQt9hfMExzn79q5HzaPktFj5lr8njpA5FfaPhQ40pMdB7U=
+  app: salty-crag-56143
+  on:
+    repo: gannonk08/express-ci-cd
