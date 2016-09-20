@@ -11,3 +11,11 @@
 1.  migrations `heroku run knex migrate:latest`
 1.  seeds `heroku run knex seed:run`
 1.  `heroku restart`
+
+##Push to Github
+1.  set up remote on Github
+1.  push
+
+##Set up Travis
+1.  sign up
+1.  
